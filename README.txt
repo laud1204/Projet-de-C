@@ -2,20 +2,18 @@ Projet de C / M2101 / S2 / 2020-2021
 Groupe B1 - DELMAS Lauretta & DIEYE Awa
 
 
-SUJET 3 : Chiffrement de messages
-
-
 DESCRIPTION DE L'ALGORITHME DE CESAR : 
-
 " Le code César est un chiffrement basé sur un décalage 
 de l'alphabet (déplacement des lettres plus loin dans 
 l'alphabet), il s'agit d'une substitution monoalphabétique, 
 c'est-à-dire qu'une même lettre n'est remplacée que 
 par une seule autre (toujours identique pour un même message)."
 
+
 SOURCES : 
 - http://exo7.emath.fr/cours/ch_crypto.pdf 
 - https://www.dcode.fr/chiffre-cesar#:~:text=Le%20code%20C%C3%A9sar%20est%20un,identique%20pour%20un%20m%C3%AAme%20message).
+
 
 PETITES PRECISIONS :
 - Nous avons décidé de traiter uniquement des messages contenant des lettres minuscules ou majuscules
@@ -27,8 +25,8 @@ le résultat dans un fichier texte "result.txt" qui se retrouve dans le dossier 
 - Nous avons pensé à faire des boucles while pour les cas de saisie incorrects.
 - Nous avons limité la taille du message à 1000 caractères pour ne pas avoir une durée d'exécution trop longue.
 
-LES FONCTIONS DEVELOPPEES (contenues dans le fichier "fonctions.c") :
 
+LES FONCTIONS DEVELOPPEES (contenues dans le fichier "fonctions.c") :
 // Fonction "verificationAlphanumMessage"
 // Permet de détecter des caractères inappropriés
 // Paramètres : un tableau de char qui constitue le message
